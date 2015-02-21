@@ -10,7 +10,9 @@
 		$calc-width: (($column-width * $i) + ($include-margin * ($i - 1))) / $system-width * 100%;
 
 		@each $breakpoint-name, $breakpoint-value in $-breakpoints {
-			.#{$breakpoint-name}_#{$i} { width: $calc-width; }
+			@mixin breakpoint($breakpoint-name){
+				.#{$breakpoint-name}_#{$i} { width: $calc-width; }
+			}
 		}
 
 	}
