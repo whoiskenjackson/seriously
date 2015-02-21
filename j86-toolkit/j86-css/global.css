@@ -47,18 +47,9 @@ a {
     src: url("../fonts/fonts/Genericons.svg#Genericons") format("svg");
   }
 }
-/* line 5, app/helpers/_inline-block.scss */
-.inline-block {
-  display: inline-block;
-  vertical-align: middle;
-  *vertical-align: auto;
-  *zoom: 1;
-  *display: inline;
-  vertical-align: top;
-}
-
 /* line 10, app/helpers/_inline-block.scss */
 .inline-block {
+  vertical-align: top;
   float: none;
 }
 
@@ -67,7 +58,7 @@ a {
   content: " ";
   display: table;
 }
-/* line 15, app/helpers/_clear-fix.scss */
+/* line 13, app/helpers/_clear-fix.scss */
 .clearfix:after {
   clear: both;
 }
