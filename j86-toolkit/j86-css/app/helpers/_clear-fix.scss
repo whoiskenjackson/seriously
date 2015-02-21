@@ -2,7 +2,7 @@
 // Clear Fix
 // --------------------
 
-%clear-fix {
+@mixin clear-fix() {
 	
 	&:before,
 	&:after {
@@ -20,4 +20,4 @@
 
 }
 
-.clearfix { @extend %clear-fix; }
+.clearfix { @include clear-fix(); }

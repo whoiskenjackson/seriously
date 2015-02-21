@@ -2,12 +2,12 @@
 // Inline Block
 // --------------------
 
-%inline-block {
+@mixin inline-block() {
 	@include inline-block;
 	vertical-align: top;
 }
 
 .inline-block {
-	@extend %inline-block;
+	@include inline-block();
 	float: none;
 }

@@ -16,7 +16,7 @@
     src: url("../fonts/fonts/Genericons.svg#Genericons") format("svg");
   }
 }
-/* line 5, ../app/widgets/_inline-block.scss */
+/* line 5, ../app/helpers/_inline-block.scss */
 .inline-block {
   display: inline-block;
   vertical-align: middle;
@@ -26,17 +26,17 @@
   vertical-align: top;
 }
 
-/* line 10, ../app/widgets/_inline-block.scss */
+/* line 10, ../app/helpers/_inline-block.scss */
 .inline-block {
   float: none;
 }
 
-/* line 7, ../app/widgets/_clear-fix.scss */
+/* line 7, ../app/helpers/_clear-fix.scss */
 .clearfix:before, .clearfix:after {
   content: " ";
   display: table;
 }
-/* line 15, ../app/widgets/_clear-fix.scss */
+/* line 15, ../app/helpers/_clear-fix.scss */
 .clearfix:after {
   clear: both;
 }
