@@ -1,0 +1,11 @@
+{
+  "name": "generator-j86",
+  "version": "0.1.0",
+  "description": "Basic Sample Generator",
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "yeoman-generator": "^0.17.7"
+  }
+}

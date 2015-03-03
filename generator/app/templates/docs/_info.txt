@@ -1,0 +1,31 @@
+// ----------------------------------------
+// <%= projectName %>
+// ----------------------------------------
+
+Important info for <%= projectName %>. This website was created by <%= authorName %> (<%= authorUrl %>).
+
+// --------------------
+// Domain
+// --------------------
+
+SubDomain: <%= wpDomain %>
+
+
+
+// --------------------
+// WordPress
+// --------------------
+
+WP User: <%= wpUser %>
+WP Pass: <%= wpPass %>
+
+
+
+// --------------------
+// Database
+// --------------------
+
+DB Name: <%= dbUser %>
+DB User: <%= dbUser %>
+DB Pass: <%= dbPass %>
+DB Hostname: <%= dbHost %>
