@@ -1,0 +1,22 @@
+// --------------------
+// Gouda Helpers
+// --------------------
+
+%icon {
+	vertical-align: top;
+	text-align: center;
+	display: inline-block;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	line-height: 1;
+	text-decoration: inherit;
+	text-transform: none;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	speak: none;
+}
+
+%genericons { font-family: $genericons; }
+
+%glyphicons { font-family: $glyphicons; }

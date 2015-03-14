@@ -98,7 +98,7 @@ module.exports = generators.Base.extend({
     		this.projectSlug = this.projectSlug.replace(/\s+/g, "-");
             
             this.projectDescription = props.projectDescription;
-            this.wordpress = props.projectType;
+            this.wordpress = props.projectType ? true : false;
             this.cherryPick = props.cherryPick;
             this.jsArray = props.jsArray;
             this.projectType = props.projectType ? "wordpress" : "static";
@@ -166,7 +166,7 @@ module.exports = generators.Base.extend({
 			}
 
 			var i = 0;
-			var jsLength = this.jsArray.length;
+			var jsLength = this.jsArray ? this.jsArray.length : false;
 
 			this.directory(''+this.projectType+'','website');
 
@@ -174,6 +174,7 @@ module.exports = generators.Base.extend({
 				this.directory('theme',''+wordpress.base+'/'+wordpress.themes+'/'+this.projectSlug+'');
 				this.directory('plugins',''+wordpress.base+'/'+wordpress.plugins+'');
 				this.directory('javascript/scripts',''+wordpress.base+'/'+wordpress.themes+'/'+this.projectSlug+'/js');
+				this.directory('css',''+wordpress.base+'/'+wordpress.themes+'/'+this.projectSlug+'/css');
 			
 				if(this.cherryPick){
 					for(i; i < jsLength; i++) {
@@ -185,6 +186,7 @@ module.exports = generators.Base.extend({
 			} else {
 
 				this.directory('javascript/scripts',''+static.base+'/js');
+				this.directory('css',''+static.base+'/css');
 
 				if(this.cherryPick){
 					for(i; i < jsLength; i++) {
