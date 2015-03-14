@@ -1,0 +1,25 @@
+// --------------------------------------
+// Reset
+// --------------------------------------
+
+html, body {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
+
+html { -webkit-text-size-adjust: none; }
+
+article, aside, footer, header, nav, section, figure {
+	display: block;
+	position: relative;
+}
+
+img {
+	border: none;
+	display: block;
+}
+
+a { cursor: pointer; }
