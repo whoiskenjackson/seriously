@@ -31,3 +31,8 @@
 .clearfix:after {
   clear: both;
 }
+
+/* line 3, demo.scss */
+body {
+  margin: 0;
+}

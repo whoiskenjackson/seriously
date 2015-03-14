@@ -43,7 +43,7 @@ module.exports = function(grunt) {
 
 		watch: {
 			js: {
-				files: ['/js/**/{,*/}*.js'],
+				files: ['<%= config.target %>/js/**/{,*/}*.js'],
 				tasks: ['newer:jshint:dist'],
 				options: {
 					reload: true,
@@ -52,7 +52,7 @@ module.exports = function(grunt) {
 			},
 
 			css: {
-				files: ['/css/**/{,*/}*.scss'],
+				files: ['<%= config.target %>/css/**/{,*/}*.scss'],
 				tasks: ['sass','newer:autoprefixer:dist'],
 				options: {
 					reload: true,
@@ -73,9 +73,9 @@ module.exports = function(grunt) {
 			dist: {
 				files: [{
 					expand: true,
-					cwd: '/css/',
+					cwd: '<%= config.target %>/css/',
 					src: ['**/{,*/}*.scss'],
-					dest: '/css/',
+					dest: '<%= config.target %>/css/',
 					ext: '.css'
 				}]
 			}
@@ -89,7 +89,7 @@ module.exports = function(grunt) {
             dist: {
 				files: [{
 					expand: true,
-					cwd: '/js/',
+					cwd: '<%= config.target %>/js/',
 					src: ['**/{,*/}*.js']
 				}]
 			}
@@ -99,9 +99,9 @@ module.exports = function(grunt) {
             dist: {
             	files: [{
 	            	expand: true,
-					cwd: '/css/',
+					cwd: '<%= config.target %>/css/',
 					src: '**/{,*/}*.css',
-					dest: '/css/'
+					dest: '<%= config.target %>/css/'
 				}]
             }
         },
@@ -113,9 +113,9 @@ module.exports = function(grunt) {
 			dist: {
 				files: [{
 				expand: true,
-					cwd: '/css/',
+					cwd: '<%= config.target %>/css/',
 					src: ['**/{,*/}.css'],
-					dest: '/css'
+					dest: '<%= config.target %>/css'
 				}]
 			}
 		},
@@ -130,9 +130,9 @@ module.exports = function(grunt) {
 			dist: {
 				files: [{
 					expand: true,
-					cwd: '/js/',
+					cwd: '<%= config.target %>/js/',
 					src: '**/{,*/}*.js',
-					dest: '/js',
+					dest: '<%= config.target %>/js',
 					ext: '.min.js'
 				}]
 			}
@@ -145,9 +145,9 @@ module.exports = function(grunt) {
 				},
 				files: [{
 					expand: true,
-					cwd: '/images/',
+					cwd: '<%= config.target %>/images/',
 					src: ['*.{png,jpg,gif}'],
-					dest: '/images'
+					dest: '<%= config.target %>/images'
 				}]
 			}
 		}
