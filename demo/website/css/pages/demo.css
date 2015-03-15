@@ -16,18 +16,83 @@
     src: url("../fonts/fonts/Genericons.svg#Genericons") format("svg");
   }
 }
-/* line 10, ../app/helpers/_inline-block.scss */
+/*--- Bounce ---*/
+/*--- Bounce In ---*/
+/*--- Bounce In Down ---*/
+/*--- Bounce In Left ---*/
+/*--- Bounce In Right ---*/
+/*--- Bounce In Up ---*/
+/*--- Bounce Out ---*/
+/*--- Bounce Out Down ---*/
+/*--- Bounce Out Left ---*/
+/*--- Bounce Out Right ---*/
+/*--- Bounce Out Up ---*/
+/*--- Fade In ---*/
+/*--- Fade In Down ---*/
+/*--- Fade In Down Big ---*/
+/*--- Fade In Left ---*/
+/*--- Fade In Left Big ---*/
+/*--- Fade In Right ---*/
+/*--- Fade In Right Big ---*/
+/*--- Fade In Up ---*/
+/*--- Fade In Up Big ---*/
+/*--- Fade Out ---*/
+/*--- Fade Out Down ---*/
+/*--- Fade Out Down Big ---*/
+/*--- Fade Out Left ---*/
+/*--- Fade Out Left Big ---*/
+/*--- Fade Out Right ---*/
+/*--- Fade Out Right Big ---*/
+/*--- Fade Out Up ---*/
+/*--- Fade Out Up Big ---*/
+/*--- Flip ---*/
+/*--- Flip In X ---*/
+/*--- Flip In Y ---*/
+/*--- Flip Out X ---*/
+/*--- Flip Out Y ---*/
+/*--- Light Speed In ---*/
+/*--- Light Speed Out ---*/
+/*--- Roll In ---*/
+/*--- Roll Out ---*/
+/*--- Rotate In ---*/
+/*--- Rotate In Down Left ---*/
+/*--- Rotate In Down Right ---*/
+/*--- Rotate In Up Left ---*/
+/*--- Rotate In Up Right ---*/
+/*--- Rotate Out ---*/
+/*--- Rotate Out Down Left ---*/
+/*--- Rotate Out Down Right ---*/
+/*--- Fade Out Up Left ---*/
+/*--- Rotate Out Up Right ---*/
+/*--- Slide In Down ---*/
+/*--- Slide In Left ---*/
+/*--- Slide In Right ---*/
+/*--- Slide Out Left ---*/
+/*--- Slide Out Right ---*/
+/*--- Slide Out Up ---*/
+/*--- Slide Out Down ---*/
+/*--- Zoom In ---*/
+/*--- Zoom In Down ---*/
+/*--- Zoom In Left ---*/
+/*--- Zoom In Right ---*/
+/*--- Zoom In Up ---*/
+/*--- Zoom Out ---*/
+/*--- Zoom Out Down ---*/
+/*--- Zoom Out Left ---*/
+/*--- Zoom Out Right ---*/
+/*--- Zoom Out Up ---*/
+/* line 10, /Applications/XAMPP/xamppfiles/htdocs/websites/whoiskenjackson/github/j86/demo/website/css/app/helpers/_inline-block.scss */
 .inline-block {
   vertical-align: top;
   float: none;
 }
 
-/* line 7, ../app/helpers/_clear-fix.scss */
+/* line 7, /Applications/XAMPP/xamppfiles/htdocs/websites/whoiskenjackson/github/j86/demo/website/css/app/helpers/_clear-fix.scss */
 .clearfix:before, .clearfix:after {
   content: " ";
   display: table;
 }
-/* line 13, ../app/helpers/_clear-fix.scss */
+/* line 13, /Applications/XAMPP/xamppfiles/htdocs/websites/whoiskenjackson/github/j86/demo/website/css/app/helpers/_clear-fix.scss */
 .clearfix:after {
   clear: both;
 }

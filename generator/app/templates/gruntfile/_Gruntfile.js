@@ -67,6 +67,7 @@ module.exports = function(grunt) {
 				sourcemap: 'none',
 				precision: 7,
 				lineNumbers: true,
+				loadPath: '<%= config.target %>/css/',
 				trace: true,
 				update: true
 			},

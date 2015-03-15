@@ -1,14 +1,15 @@
-// --------------------------------------
+// --------------------
 // Base
-// --------------------------------------
+// --------------------
 
-@import "variables";
-@import "font-icons/core";
+@import "app/base/variables";
+@import "app/base/font-icons";
+@import "app/base/animations";
 
 // --------------------------------------
 // Helpers
 // --------------------------------------
 
-@import "../helpers/image-replace";
-@import "../helpers/inline-block";
-@import "../helpers/clear-fix";
+@import "app/helpers/image-replace";
+@import "app/helpers/inline-block";
+@import "app/helpers/clear-fix";

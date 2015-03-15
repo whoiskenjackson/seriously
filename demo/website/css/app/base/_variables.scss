@@ -2,29 +2,29 @@
 // Paths
 // --------------------------------------
 
-$path-font-icon: '../fonts';
+$path-font-icon: '../fonts' !default;
 
 // --------------------------------------
 // Grid System
 // --------------------------------------
 
-$system-width: 1200px;
-$column-width: 80px;
-$gutter-width: 0;
-$columns: 15;
+$system-width: 1200px !default;
+$column-width: 80px !default;
+$gutter-width: 0 !default;
+$columns: 15 !default;
 
 // --------------------------------------
 // Colors
 // --------------------------------------
 
-$black-01: #000;
-$white-01: #fff;
+$black-01: #000 !default;
+$white-01: #fff !default;
 
 // --------------------------------------
 // Fonts
 // --------------------------------------
 
-$arial: Arial, "Helvetica Neue", Helvetica, sans-serif;
-$helvetica: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$georgia: Georgia, "Times New Roman", Times, serif;
-$times: "Times New Roman", Times, serif;
+$arial: Arial, "Helvetica Neue", Helvetica, sans-serif !default;
+$helvetica: "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$georgia: Georgia, "Times New Roman", Times, serif !default;
+$times: "Times New Roman", Times, serif !default;
