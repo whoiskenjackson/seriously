@@ -1,0 +1,16 @@
+// --------------------------------------
+// Background Scale
+// --------------------------------------
+
+$-background-scale: (
+	width: 100% auto,
+	height: auto 100%
+);
+
+// ------------------
+// Helpers
+// ------------------
+
+@mixin background-scale($type: width) {
+	background-size: map-get($-background-scale, $type);
+}

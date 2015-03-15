@@ -4,3 +4,7 @@
 body {
 	margin: 0;
 }
+
+div {
+	@include background-scale(width);
+}
