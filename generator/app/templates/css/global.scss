@@ -1,9 +1,14 @@
+// --------------------------------------
+// App
+// --------------------------------------
+
 // --------------------
 // Base
 // --------------------
 
-@import "app/base/reset";
 @import "app/base/core";
+@import "app/base/reset";
+@import "app/base/font-icons/fonts";
 
 // --------------------
 // Layout
@@ -11,3 +16,21 @@
 
 @import "app/layout/breakpoints";
 @import "app/layout/grids";
+
+
+
+// --------------------------------------
+// Theme
+// --------------------------------------
+
+// --------------------
+// Base
+// --------------------
+
+@import "theme/base/core";
+
+// --------------------
+// Layout
+// --------------------
+
+@import "theme/layout/helpers/grids";

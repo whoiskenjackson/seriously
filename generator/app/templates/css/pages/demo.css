@@ -1,0 +1,9 @@
+/* line 4, demo.scss */
+body {
+  margin: 0;
+}
+
+/* line 8, demo.scss */
+div {
+  background-size: 100% auto;
+}
