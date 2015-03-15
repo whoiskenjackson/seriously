@@ -4,8 +4,3 @@
 body {
 	margin: 0;
 }
-
-div {
-	@extend %icon;
-	@extend %icon-404;
-}

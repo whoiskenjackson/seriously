@@ -1,29 +1,3 @@
-/* line 5, /Applications/XAMPP/xamppfiles/htdocs/websites/whoiskenjackson/github/j86/demo/website/css/app/base/font-icons/_helpers.scss */
-div {
-  vertical-align: top;
-  text-align: center;
-  display: inline-block;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  line-height: 1;
-  text-decoration: inherit;
-  text-transform: none;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  speak: none;
-}
-
-/* line 20, /Applications/XAMPP/xamppfiles/htdocs/websites/whoiskenjackson/github/j86/demo/website/css/app/base/font-icons/_helpers.scss */
-div:before {
-  font-family: "Genericons";
-}
-
-/* line 7, /Applications/XAMPP/xamppfiles/htdocs/websites/whoiskenjackson/github/j86/demo/website/css/app/base/font-icons/_icons.scss */
-div:before {
-  content: "\f423";
-}
-
 /* line 4, demo.scss */
 body {
   margin: 0;

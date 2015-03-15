@@ -1,0 +1,18 @@
+// --------------------------------------
+// Icon List
+// --------------------------------------
+
+$-icons-list: ();
+
+@function generate-icons-list($icons-list) {
+	$icons-map: ();
+
+	@each $icon-name, $icon-value in $-icons {
+		$icons-map: append($icons-map, $icon-name);
+	}
+
+	@return $icons-map;
+}
+
+$-icons-list: generate-icons-list($-icons-list);
+$-icons-list: $-icons-list !default;

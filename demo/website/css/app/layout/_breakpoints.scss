@@ -20,7 +20,7 @@ $-breakpoints: (
 
 @mixin breakpoint($breakpoint) {
 	
-	$breakpoint: $map-get($-breakpoints, $breakpoint);
+	$breakpoint: map-get($-breakpoints, $breakpoint);
 	
 	@media ($breakpoint) { @content }
 
