@@ -1,15 +1,10 @@
 // --------------------------------------
-// Compass
-// --------------------------------------
-
-@import "compass/css3";
-
-// --------------------------------------
 // Base
 // --------------------------------------
 
 @import "app/base/variables";
-@import "app/base/font-icons/core";
+@import "app/base/animations";
+@import "app/base/font-icons";
 
 // --------------------------------------
 // Helpers
@@ -18,3 +13,4 @@
 @import "app/helpers/image-replace";
 @import "app/helpers/inline-block";
 @import "app/helpers/clear-fix";
+@import "app/helpers/background-scale";

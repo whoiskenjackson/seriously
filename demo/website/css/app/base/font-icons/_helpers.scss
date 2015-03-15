@@ -1,8 +1,12 @@
+// --------------------------------------
+// Font Helpers
+// --------------------------------------
+
 // --------------------
-// Gouda Helpers
+// Icon
 // --------------------
 
-%icon {
+@mixin icon() {
 	vertical-align: top;
 	text-align: center;
 	display: inline-block;
@@ -17,6 +21,30 @@
 	speak: none;
 }
 
-%genericons { font-family: $genericons; }
+// --------------------
+// Get Icon
+// --------------------
 
-%glyphicons { font-family: $glyphicons; }
+@mixin get-icon($icon-name) {
+	$icon: map-get($-icons, $icon-name);
+	$type: map-get($icon, type);
+	$content: map-get($icon, content);
+	$content: #{"\"\\"}#{$content + "\""};
+	
+	&:before{
+		font-family: map-get($-icon-font-family, $type);
+		content: $content;
+	}
+}
+
+// --------------------
+// Generate Icon Classes
+// --------------------
+
+@mixin generate-icon-classes($icon-list) {
+	.icon { @include icon(); }
+
+	@each $icon-name, $icon-value in $icon-list {
+		.icon-#{$icon-name} { @include get-icon($icon-name); }
+	}
+}
