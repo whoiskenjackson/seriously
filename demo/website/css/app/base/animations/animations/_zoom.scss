@@ -7,15 +7,15 @@
 
 %zoomInDown {
 
--webkit-animation-name: zoomInDown;
-animation-name: zoomInDown;
+	-webkit-animation-name: zoomInDown;
+	animation-name: zoomInDown;
 
 }
 
 %zoomInLeft {
 
--webkit-animation-name: zoomInLeft;
-animation-name: zoomInLeft;
+	-webkit-animation-name: zoomInLeft;
+	animation-name: zoomInLeft;
 
 }
 
@@ -68,7 +68,7 @@ animation-name: zoomInLeft;
 
 }
 
-/*--- Zoom In ---*/
+//--- Zoom In ---*/
 
 @mixin zoomIn-keyframes {
 
@@ -111,7 +111,7 @@ animation-name: zoomInLeft;
 
 }
 
-/*--- Zoom In Down ---*/
+//--- Zoom In Down ---*/
 
 @mixin zoomInDown-keyframes {
 
@@ -167,7 +167,7 @@ animation-name: zoomInLeft;
 
 }
 
-/*--- Zoom In Left ---*/
+//--- Zoom In Left ---*/
 
 @mixin zoomInLeft-keyframes {
 
@@ -223,7 +223,7 @@ animation-name: zoomInLeft;
 
 }
 
-/*--- Zoom In Right ---*/
+//--- Zoom In Right ---*/
 
 @mixin zoomInRight-keyframes {
 
@@ -279,7 +279,7 @@ animation-name: zoomInLeft;
 
 }
 
-/*--- Zoom In Up ---*/
+//--- Zoom In Up ---*/
 
 @mixin zoomInUp-keyframes {
 
@@ -335,7 +335,7 @@ animation-name: zoomInLeft;
 
 }
 
-/*--- Zoom Out ---*/
+//--- Zoom Out ---*/
 
 @mixin zoomOut-keyframes {
 
@@ -390,7 +390,7 @@ animation-name: zoomInLeft;
 
 }
 
-/*--- Zoom Out Down ---*/
+//--- Zoom Out Down ---*/
 
 @mixin zoomOutDown-keyframes {
 
@@ -451,7 +451,7 @@ animation-name: zoomInLeft;
 
 }
 
-/*--- Zoom Out Left ---*/
+//--- Zoom Out Left ---*/
 
 @mixin zoomOutLeft-keyframes {
 
@@ -504,7 +504,7 @@ animation-name: zoomInLeft;
 
 }
 
-/*--- Zoom Out Right ---*/
+//--- Zoom Out Right ---*/
 
 @mixin zoomOutRight-keyframes {
 
@@ -557,7 +557,7 @@ animation-name: zoomInLeft;
 
 }
 
-/*--- Zoom Out Up ---*/
+//--- Zoom Out Up ---*/
 
 @mixin zoomOutUp-keyframes {
 
