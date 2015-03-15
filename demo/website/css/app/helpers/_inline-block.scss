@@ -5,9 +5,5 @@
 @mixin inline-block() {
 	//@include inline-block;
 	vertical-align: top;
-}
-
-.inline-block {
-	@include inline-block();
 	float: none;
 }
