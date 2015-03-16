@@ -175,6 +175,7 @@ module.exports = generators.Base.extend({
 				this.directory('plugins',''+wordpress.base+'/'+wordpress.plugins+'');
 				this.directory('javascript/scripts',''+wordpress.base+'/'+wordpress.themes+'/'+this.projectSlug+'/js');
 				this.directory('css',''+wordpress.base+'/'+wordpress.themes+'/'+this.projectSlug+'/css');
+				this.directory('fonts',''+wordpress.base+'/'+wordpress.themes+'/'+this.projectSlug+'/fonts');
 			
 				if(this.cherryPick){
 					for(i; i < jsLength; i++) {
@@ -187,6 +188,7 @@ module.exports = generators.Base.extend({
 
 				this.directory('javascript/scripts',''+static.base+'/js');
 				this.directory('css',''+static.base+'/css');
+				this.directory('fonts',''+static.base+'/fonts');
 
 				if(this.cherryPick){
 					for(i; i < jsLength; i++) {

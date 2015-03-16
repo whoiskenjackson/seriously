@@ -1,6 +1,6 @@
 #Demo
 
-A demo environment for testing out Developing SCSS Framework.
+A demo project for setting up SCSS Framework
 
 ###Project Structure
 
