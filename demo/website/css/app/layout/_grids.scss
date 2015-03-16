@@ -3,9 +3,7 @@
 // --------------------------------------
 
 @mixin generate-grid-system($-breakpoints) {
-
 	@for $i from 1 through $columns {
-
 		$include-margin: $gutter-width;
 		$calc-width: (($column-width * $i) + ($include-margin * ($i - 1))) / $system-width * 100%;
 
@@ -14,9 +12,7 @@
 				.#{$breakpoint-name}_#{$i} { width: $calc-width; }
 			}
 		}
-
 	}
-
 }
 
 // --------------------------------------
