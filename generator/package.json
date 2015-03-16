@@ -1,7 +1,7 @@
 {
-  "name": "generator-j86",
+  "name": "generator-seriously",
   "version": "0.1.0",
-  "description": "Basic Sample Generator",
+  "description": "A better way of setting up projects",
   "keywords": [
     "yeoman-generator"
   ],

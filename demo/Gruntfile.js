@@ -43,7 +43,7 @@ module.exports = function(grunt) {
 
 		watch: {
 			js: {
-				files: ['<%= config.target %>/js/**/{,*/}*.js'],
+				files: ['/js/**/{,*/}*.js'],
 				tasks: ['newer:jshint:dist'],
 				options: {
 					reload: true,
@@ -52,7 +52,7 @@ module.exports = function(grunt) {
 			},
 
 			css: {
-				files: ['<%= config.target %>/css/**/{,*/}*.scss'],
+				files: ['/css/**/{,*/}*.scss'],
 				tasks: ['sass','newer:autoprefixer:dist'],
 				options: {
 					reload: true,
@@ -67,16 +67,16 @@ module.exports = function(grunt) {
 				sourcemap: 'none',
 				precision: 7,
 				lineNumbers: true,
-				loadPath: '<%= config.target %>/css/',
+				loadPath: '/css/',
 				trace: true,
 				update: true
 			},
 			dist: {
 				files: [{
 					expand: true,
-					cwd: '<%= config.target %>/css/',
+					cwd: '/css/',
 					src: ['**/{,*/}*.scss'],
-					dest: '<%= config.target %>/css/',
+					dest: '/css/',
 					ext: '.css'
 				}]
 			}
@@ -90,7 +90,7 @@ module.exports = function(grunt) {
             dist: {
 				files: [{
 					expand: true,
-					cwd: '<%= config.target %>/js/',
+					cwd: '/js/',
 					src: ['**/{,*/}*.js']
 				}]
 			}
@@ -100,9 +100,9 @@ module.exports = function(grunt) {
             dist: {
             	files: [{
 	            	expand: true,
-					cwd: '<%= config.target %>/css/',
+					cwd: '/css/',
 					src: '**/{,*/}*.css',
-					dest: '<%= config.target %>/css/'
+					dest: '/css/'
 				}]
             }
         },
@@ -114,9 +114,9 @@ module.exports = function(grunt) {
 			dist: {
 				files: [{
 				expand: true,
-					cwd: '<%= config.target %>/css/',
+					cwd: '/css/',
 					src: ['**/{,*/}.css'],
-					dest: '<%= config.target %>/css'
+					dest: '/css'
 				}]
 			}
 		},
@@ -131,9 +131,9 @@ module.exports = function(grunt) {
 			dist: {
 				files: [{
 					expand: true,
-					cwd: '<%= config.target %>/js/',
+					cwd: '/js/',
 					src: '**/{,*/}*.js',
-					dest: '<%= config.target %>/js',
+					dest: '/js',
 					ext: '.min.js'
 				}]
 			}
@@ -146,9 +146,9 @@ module.exports = function(grunt) {
 				},
 				files: [{
 					expand: true,
-					cwd: '<%= config.target %>/images/',
+					cwd: '/images/',
 					src: ['*.{png,jpg,gif}'],
-					dest: '<%= config.target %>/images'
+					dest: '/images'
 				}]
 			}
 		}
