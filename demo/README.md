@@ -1,6 +1,6 @@
 #Demo
 
-Demo of Generator and CSS Framework
+A demo environment for testing out Developing SCSS Framework.
 
 ###Project Structure
 
