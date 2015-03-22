@@ -33,7 +33,7 @@
 	}
 
 	.row { 
-		@extend %clear-fix;
+		@include clear-fix;
 		margin-bottom: 40px;
 	}
 

@@ -1,6 +1,6 @@
 #Demo
 
-A demo project for setting up SCSS Framework
+A demo website
 
 ###Project Structure
 

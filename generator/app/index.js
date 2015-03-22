@@ -147,6 +147,7 @@ module.exports = generators.Base.extend({
 			}
 
 			this.copy("readme/_README.md", "README.md");
+			this.copy("gitignore/.gitignore", ".gitignore");
 			this.copy("package/_package.json", "package.json");
 			this.copy("gruntfile/_Gruntfile.js", "Gruntfile.js");
 			this.template("docs/_info.txt", "docs/info.txt", context);
