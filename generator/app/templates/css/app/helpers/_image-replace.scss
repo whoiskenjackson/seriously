@@ -2,10 +2,12 @@
 // Image Replace
 // --------------------------------------
 
-@mixin image-replace($width: 100%, $height: 100%, $image: none) {
+@mixin image-replace($width: 100%, $height: 100%, $background: false) {
 	width: $width;
 	height: $height;
 	color: transparent;
 	overflow: hidden;
-	background: url($image) no-repeat center center;
+	@if $background {
+		background: url($background) no-repeat center center;
+	}
 }
